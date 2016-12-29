@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\praktikumiv2rk">
+      <UniqueIdentifier>{7e52543f-cd0c-4e8c-819a-bb53a9ac6b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Beleg">
+      <UniqueIdentifier>{0b03af83-ee92-4b40-8f26-94569bdd794a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnsichtUndTransformation.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="backupWurfelUndKegel.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="BildUndTextur.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="MingiMuu.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="Moving_wheel.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelUndPuffer.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="UseTheForcheOnTheTriangles.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="wurfelUndKegel.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadShader.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferTest.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="LichtUndSchatten.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryStuff.cpp">
+      <Filter>Source Files\praktikumiv2rk</Filter>
+    </ClCompile>
+    <ClCompile Include="beleg.cpp">
+      <Filter>Beleg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dreiecke.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Dreiecke.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TheForceVertexShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TheForceFragmentShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="wurfelUndKegelVertexShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="wurfelUndKegelFragShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="singleColorFragmentShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BildTextureVertexShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BildTextureFragShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BufferTest.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BufferTest.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LichtUndSchatten.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LichtUndSchatten.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Dreiecke.gs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GeometryStuff.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GeometryStuff.gs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GeometryStuff.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="beleg.fs">
+      <Filter>Beleg</Filter>
+    </None>
+    <None Include="beleg.vs">
+      <Filter>Beleg</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Bild01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Bild02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

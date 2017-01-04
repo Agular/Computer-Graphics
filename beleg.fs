@@ -29,7 +29,8 @@ void main() {
 	float dampedFactor = pow(specularFactor, shineDamper);
 	vec3 finalSpecular = dampedFactor * reflectivity * lightColor;
 	
-	
+	//Apply just Color
+	fColor = Color;
 	
 	//Apply diffuse light to vectors.
 	//fColor = vec4(diffuse, 1.0f) * texture(tex, TexCoord);    
